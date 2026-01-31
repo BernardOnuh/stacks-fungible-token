@@ -10,14 +10,14 @@ plan:
       transactions:
         - contract-publish:
             contract-name: defi
-            expected-sender: SPH5A74TQ7TF7BGR780T56WJY546Q3FEFQSGREEF
+            expected-sender: SP1J9GQGV4BVRACRQ1DG271A6P61QRJ980YSXJR2S
             cost: 6530
             path: contracts/extern/defi.clar
             anchor-block-only: true
             clarity-version: 4
         - contract-publish:
             contract-name: fungible-token
-            expected-sender: SPH5A74TQ7TF7BGR780T56WJY546Q3FEFQSGREEF
+            expected-sender: SP1J9GQGV4BVRACRQ1DG271A6P61QRJ980YSXJR2S
             cost: 23640
             path: contracts/fungible-token.clar
             anchor-block-only: true
